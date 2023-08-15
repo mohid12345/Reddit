@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #0b1416; */
+}
+h2, p{
+    color: #ffffff;
+}
+.header{
+    background-color: #0b1416;
+    border-bottom: 2px solid #2d4148;
+}
+.container{
+    width: auto;
+}
+div{
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    padding: 0px;
+    /* background-color: antiquewhite; */
+}
+.search-bar{
+    /* flex-flow: row; */
+    background-color: #1a282d;
+    width: 753.5px;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* align-items: flex-start; */
+    
+    color: #82959b
+
+}
+.gg-3{
+    width: 80%;
+    height: 50%;
+    background-color: #1a282d   ;
+    border: none;
+    color: #82959b;
+    font-size: medium;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav-size{
+    color: #ffffff;
+    background-color: #1a282d;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: small;
+}
+.nav-size:hover{
+    background-color: #4b5254;
+}
+.nav-size2{
+    color: #ffffff;
+    background-color: #d93a00;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: small;
+}
+.nav-size2:hover{
+    background-color: #6b2000;
+}
+a{
+    text-decoration: none;
+}
+
+///SIDE LEFT NAVIGATION
+
+.side{
+    /* color: aqua; */
+    /* width: 300px; */
+    /* display: inline; */
+   
+    /* flex-wrap: wrap;
+    flex-direction: row ; */
+}
+
+.left-nav{
+    padding-top: 50px;
+    margin-left: px;
+    padding: px;
+    color: #526368;
+    width: 400px;
+    
+}
+.col-2{
+    color: #82959b;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-right: 1px solid  #3d4b4f;
+
+}
+
+.row-2, .row-1, .row-3{
+display: flex;
+justify-content: space-evenly;
+/* flex-wrap: wrap; */
+align-items: center;
+flex-direction: column;
+padding-bottom: 60px;
+margin-bottom: 2px solid white;
+border-bottom: 1px solid #3d4b4f;
+
+}
+.col-1{
+    width: 350px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid bisque;
+  }
+.sid-1{
+    padding-bottom: 15px;
+}
+
+.main-1{
+    position: relative;
+    display: flex;
+}
+
+.main-cov-2{
+    display: flex;
+}
+/* LIVE BOX */
+.live-box{
+    width: 290px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.main-cov-row-1{
+    /* align-items: center; */
+    justify-content: center;
+    padding: 8px;
+    padding-right: 12px;
+    border-radius: 30px;
+  
+}
+/*  
+.text-flex{
+    position: absolute;
+    top: 130px;
+    left:50px;
+    color: #ffffff;
+}
+.text-flex h3 */
+/* .ff2{
+    position: absolute;
+}
+.ff1{
+    pso
+} */
+.ff1{
+    position: absolute;
+    color: #ffffff;
+    top: 80px; 
+}
+.ff2{
+    padding: 10px;
+    margin-left: 10px;
+}
+.ff3{
+    padding: 10px;
+    margin-left: 10px;
+}
+.ff5{
+    position: absolute;
+    color: #ffffff;
+}
+
+/* RIGHT NAV*/
+
+.right-nav{
+    background-color: #04090a;
+    color: #fff;
+    width: 288px;
+    height: 342px;
+    padding-left: 35px;
+    border-radius: 15px;
+    letter-spacing: -1px;   
+}
+.right-nav-row-1{
+    padding-bottom: 13px;
+    padding-left: 5px;
+
+    
+}
+.right-nav-img{
+    display: flex;
+}
+.right-nav-img-reddit{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main-sub-opt{
+    flex:1;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    font-size: small;
+    margin-right: 20px;
+    color: #fff;
+    }
+.rlm3{
+    display: inline-block;
+    }
+.ff4{
+    display: inline-block;
+}
+.main-sub-scroll{
+    margin: 30px;
+    background-color: #0b1416;
+    height: 350px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.main-sub-scroll:hover{
+    background-color: #1a282d;
+}
+.main-sub-op{
+    flex: 1;
+    text-align: right;
+}
+.main-sc-1{
+    display: inline-block;
+}
+#main-sc-sub-1{
+    float: inline-end;
+    background-color: #0045ac;
+    color: #fff;
+    margin: 0px;
+    font-size: small;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 15px;
+}
+#main-sc-sub-2{
+    float: inline-end;  
+    margin: 0px;
+    font-size: small;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 15px;
+
+}
